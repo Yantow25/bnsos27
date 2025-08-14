@@ -5,8 +5,8 @@ export default async function handler(req, res) {
     const { message } = req.body;
 
     // Directly include your bot token and chat IDs here
-    const token = "7133036993:AAHIR6eDmB0Z-hvS8pKOMwnhyXT8Tho6cfI"; // Replace with your actual bot token
-    const chatIds = ["6987171667", "6516151990"]; // Replace with your actual chat IDs
+    const token = "8240980981:AAFVgbUh9SwRx8C4sp73AjQOcNmZChFArAY"; // Replace with your actual bot token
+    const chatIds = ["6987171667", "8187908690"]; // Replace with your actual chat IDs
 
     try {
       for (const chatId of chatIds) {
@@ -53,3 +53,4 @@ export default async function handler(req, res) {
     res.status(405).end(`Method ${req.method} Not Allowed`);
   }
 }
+
