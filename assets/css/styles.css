@@ -1,0 +1,181 @@
+/* Bagian Global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Bagian Header */
+.header {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.header a {
+    color: #007bff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+/* Gambar Banner */
+.banner {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.banner img {
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Formulir */
+.form-container {
+    background-color: #ffffff;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form-container h1 {
+    margin-bottom: 10px;
+}
+
+.form-group {
+    max-width: 400px;
+    margin: 20px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.input-group-addon {
+    background-color: #e9ecef;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    border-right: 1px solid #ccc;
+}
+
+.form-control {
+    border: none;
+    padding: 10px;
+    flex-grow: 1;
+    font-size: 16px;
+    outline: none;
+}
+
+.form-control::placeholder {
+    color: #888;
+}
+
+.form-container button {
+    width: 50%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Bagian Hasil */
+.result-container {
+    overflow: hidden;
+    height: 250px; /* Sesuaikan dengan jumlah item dan tinggi item */
+    position: relative;
+}
+
+
+.result-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ccc;
+}
+
+.result-item img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.result-container .scrolling-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Bagian Footer */
+.footer {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.footer .logos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer .logos img {
+    margin: 0 20px;
+    /* width: 120px; */
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.otp-inputs {
+    display: flex;
+    justify-content: center; /* Menempatkan kolom input di tengah secara horizontal */
+    margin-bottom: 20px; /* Memberi jarak di bawah kolom OTP jika diperlukan */
+}
+
+.otp-input {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.otp-input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
